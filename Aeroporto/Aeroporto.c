@@ -1,5 +1,23 @@
-// Kayky Moreira Praxedes
-// Carlos Ernesto Cardoso dos Reis
+/*
+- Desenvolvedores:
+    Kayky Moreira Praxedes
+    Carlos Ernesto Cardoso dos Reis
+
+- Resumo do projeto:
+    Sistema de gerenciamento de aeroportos com funcionalidades 
+    para adicionar, alterar, consultar e remover: voos, passagens e 
+    passageiros.
+
+    O sistema utiliza listas encadeadas e alocação dinâmica para 
+    armazenar os dados e oferece um menu interativo para o usuário.
+    
+    O sistema é interligado, realizando alterações automáticas em 
+    elementos codependentes, como por exemplo, remover as passagens e
+    e os passageiros associados a um voo ao remover o voo.
+    
+    Os dados são armazenados em memória durante a execução do programa,
+    mas pode ser expandido para incluir persistência em arquivos.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
